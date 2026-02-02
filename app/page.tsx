@@ -9,7 +9,7 @@ export default function Home() {
         </p>
         <a className="hero-cta border-2 p-2 uppercase border-black font-medium hover:bg-orange-700 hover:text-white transition-all" href="#">Browse Models</a>
       </div>
-      <img className="flex-1 rounded-full" src="/home-page-hero-img.png" />
+      <img className="flex-1 rounded-full" src="/hero-image.png" />
     </main>
   )
 }
