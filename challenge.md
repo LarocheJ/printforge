@@ -1,14 +1,14 @@
 Challenge
 =========
-1. Create the models list page, which should be under the "/3d-models" route.
-2. Import the `getAllModels` function from "@/app/lib/models".
-3. Call the `getAllModels` function to get a list of all models. It's an async
-   function, so handle it accordingly.
-4. Map over the models data and display a list of the model names (model.name)
+Create the categories page.
+- URL should be `/3d-models/categories/[categoryName]`. E.g. /3d-models/categories/hobby-diy
+- For now, the page can simply display the same `categoryName` that's in
+  the URL parameter.
 
-Check out app/data/models.json to see the details on the models data. E.g. you
-can use the `id` property as a `key` when mapping the data.
+## Notes:
+- For now, you'll need to manually navigate to the category pages (since
+  we don't have Links or a navbar set up yet)
 
-You also can use the Model type I created in "@/app/types" if you'd like to
-satisfy TypeScript when you're mapping over the array. (But it isn't required
-to do so for this challenge if you don't want to.)
+## Extra credit:
+- If you want to jump ahead, you can use the functions in `lib/categories.ts`
+  to display the full category name instead of just the slug.
